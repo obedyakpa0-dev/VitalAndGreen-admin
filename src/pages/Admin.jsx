@@ -3,7 +3,7 @@ import { motion } from "framer-motion" // eslint-disable-line no-unused-vars
 import { productsAPI, ordersAPI } from "../services/api"
 
 const MAIN_SITE_URL =
-  import.meta.env.VITE_MAIN_SITE_URL || "https://vital-green-frontend.vercel.app"
+  import.meta.env.VITE_MAIN_SITE_URL || "https://vital-and-green.vercel.app"
 
 const Admin = () => {
   const [activeTab, setActiveTab] = useState("dashboard")
