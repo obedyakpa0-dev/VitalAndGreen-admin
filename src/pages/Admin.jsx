@@ -2,7 +2,8 @@ import { useState, useEffect } from "react"
 import { motion } from "framer-motion" // eslint-disable-line no-unused-vars
 import { productsAPI, ordersAPI } from "../services/api"
 
-const MAIN_SITE_URL = import.meta.env.VITE_MAIN_SITE_URL || "http://localhost:5173"
+const MAIN_SITE_URL =
+  import.meta.env.VITE_MAIN_SITE_URL || "https://vitalandgreen42.vercel.app";
 
 const Admin = () => {
   const [activeTab, setActiveTab] = useState("dashboard")
